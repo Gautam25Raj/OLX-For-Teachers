@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Advent Pro', sans-serif; }
+
+button {
+  font-family: 'Advent Pro', sans-serif; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section__header {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 1fr; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav__links {
+  display: flex;
+  font-size: 2.5rem; }
+
+.nav__link {
+  margin-right: 2rem;
+  padding: 0.5rem 2.5rem; }
+  .nav__link a {
+    color: #fff;
+    font-weight: 100; }
+
+.nav .sign-up {
+  border: 2px solid #eb66ff;
+  border-radius: 5rem; }
+  .nav .sign-up a {
+    color: #eb66ff; }
+
+.header {
+  display: flex; }
+  .header__head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-left: 5rem; }
+  .header__heading {
+    font-weight: 200;
+    font-size: 11rem;
+    margin-bottom: 5rem; }
+    .header__heading--span {
+      display: block; }
+  .header__button {
+    background-color: #eb66ff;
+    border: 2px solid #a185ff;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0.4rem 8rem;
+    font-size: 4rem;
+    color: #fff; }
+  .header__image {
+    flex-basis: 50%; }
+    .header__image img {
+      width: 90%; }
